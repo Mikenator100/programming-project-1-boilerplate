@@ -47,3 +47,13 @@ This enables **lazy migration** — when a document is read, check `_schemaVersi
 ---
 
 <!-- Add new collection schemas below using the /firebase-collection skill -->
+## `notes`
+
+Stores personal notes belonging to authenticated users.
+
+Document path:
+
+```text
+notes/{noteId}
+
+---
